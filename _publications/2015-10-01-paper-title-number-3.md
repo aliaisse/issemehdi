@@ -6,7 +6,7 @@ permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'This paper was submitted to a journal for publication.'
 date: 2024-09-05
 venue: 'Redacted for Peer Review'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
+#slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: '/files/impacts_network.pdf'
 citation: ' Dahir, A,Harrington, D., Abdollahpour, S.S., Hankey, S.,Le, H.T.K. (2024). &quot;Impacts of bicycle network
  on bicycle traffic over time in 12 cities.&quot; <i>Redacted for Peer Review</i>.'
