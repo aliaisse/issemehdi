@@ -2,9 +2,9 @@
 title: "Road Accident Severity Classification using US Accidents Dataset"
 collection: publications
 category: Reports
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2024-02-17-paper-title-number-5
 excerpt: 'FULL Technical Report for Machine Learning Project'
-date: 2023-09-18
+date: 2021-12-01
 venue: 'The Ohio State University'
 paperurl: '/files/ML_report.pdf'
 citation: 'Dahir A (2021). &quot;Road Accident Severity Classification using US Accidents Dataset.&quot; <i>The Ohio State University</i>.'
