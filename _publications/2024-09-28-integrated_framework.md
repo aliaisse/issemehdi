@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024-09-28-integrated_framework
 excerpt: 'To be submitted to a journal for publication.'
 date: 2024-09-28
-venue: 'Redacted for Peer Review''
+venue: 'Redacted for Peer Review'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: '/files/paper1.pdf'
 citation: ' Dahir, A, Jacquet, J., Bielicki, J., Le, H.T.K. (2024). &quot;Just Transition to Electric Vehicles in Disadvantaged Communities: Integrating Transportation, Energy and Climate Justice.&quot; <i>Redacted for Peer Review'</i>. 1(1).'
