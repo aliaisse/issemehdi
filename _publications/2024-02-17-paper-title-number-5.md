@@ -10,4 +10,8 @@ paperurl: '/files/ML_report.pdf'
 citation: 'Dahir A (2021). &quot;Road Accident Severity Classification using US Accidents Dataset.&quot; <i>The Ohio State University</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+<p align="justify">Most employees started to work from home due to social-distancing measures imposed by public health authorities to help prevent workplace
+exposure at the beginning of COVID-19 pandemic. As a result, gridlocked roads emptied out, and the congestion declined very sharply [1] . In order to predict accident-induced congestion severity levels, I utilized a huge US accident dataset of 1.5 million observations. Next, I predicted the accident severity classes using Random Forest (RF) Bootstrap Aggregation, and heuristic Support Vector Machine (SVM) - one-vs-one and one-vs-rest - after feature selection analysis (correlation coefficients and mutual information criteria). I then assessed the performance of classifiers through credible interval determination and binomial significance tests. The RF (bootstrap aggregation) outperforms both the base model (logistic regression) [2] , and heuristic SVM in terms of overall prediction accuracy, and confusion matrix metric. The study also demonstrates that traffic accidentinduced congestion has been less severe than prepandemic levels.</p>
+
+<p align="center"> <img src="/images/ML_model.png" style = "border:0"> </p>
+<p font size = "8" align="center"><i> Machine learning models in this study. </i></p>
