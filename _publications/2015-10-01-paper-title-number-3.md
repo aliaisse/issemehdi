@@ -2,7 +2,7 @@
 title: "Impacts of bicycle networks on bicycle traffic over time in US cities"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2024-09-18-paper-title-number-3
 excerpt: 'This paper was submitted to a journal for publication.'
 date: 2024-09-18
 venue: 'Redacted for Peer Review'

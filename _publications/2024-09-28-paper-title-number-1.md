@@ -2,7 +2,7 @@
 title: "Just Transition to Electric Vehicles in Disadvantaged Communities: Integrating Transportation, Energy and Climate Justice"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2024-09-28-paper-title-number-1
 excerpt: 'To be submitted to a journal for publication.'
 date: 2024-09-28
 venue: 'Redacted for Peer Review''
