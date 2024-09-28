@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Just Transition to Electric Vehicles in Disadvantaged Communities: Integrating Transportation, Energy and Climate Justice"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+excerpt: 'To be submitted to a journal for publication.'
+date: 2024-09-28
+venue: 'Redacted for Peer Review''
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: ' Dahir, A, Jacquet, J., Bielicki, J., Le, H.T.K. (2024). &quot;Just Transition to Electric Vehicles in Disadvantaged Communities: Integrating Transportation, Energy and Climate Justice.&quot; <i>Redacted for Peer Review'</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+<p align="justify">Electric vehicle (EV) adoption rates show disparities across cultural, political and socioeconomic contexts and conditions. Various communities face challenges of feasibly adopting emerging energy technologies such as rooftop-solar-powered EVs, vehicle-to-grid, and vehicle-to-home energy transfers. Low-income communities face the most disproportionate rates of adoption and transportation electrification risks perpetuating existing injustices in the face of climate change. To date, the connections between transportation, energy, and climate justice have been understudied. We conducted semi-structured interviews in 5 languages with 45 individuals mainly in a diversity of underserved neighborhoods of Columbus, Ohio to examine how EV adoption intersects with pervasive energy and transportation poverty and climate injustices. A reflexive thematic analysis resulted in four main justice themes related to transportation, energy, climate, and EV adoption. We also identified sub-themes of environmental justice issues under the transportation justice theme, solar equity gap under the energy justice theme, and five EV subthemes including barriers to EV adoption, affordable energy support, perceived health and air quality benefits, climate benefits, and economic benefits. The results suggest that there is a need to rectify past injustices in transportation and energy systems to achieve better outcomes. Our findings are important for addressing systemic barriers that perpetuate existing injustices when designing just EV transition policies that leave no one, including the poorest, behind.</p>

@@ -3,7 +3,7 @@ title: "Impacts of Bicycle Facilities on Residential Property Values in 11 US Ci
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'Revisions under review.'
 date: 2024-09-05
 venue: 'Redacted for Peer Review'
 #slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
