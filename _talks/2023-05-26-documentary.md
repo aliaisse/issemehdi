@@ -1,13 +1,13 @@
 ---
-title: "Tutorial 1 on Relevant Topic in Your Field"
+title: "Documentary: My Journey from Somalia to The Ohio State University"
 collection: talks
-type: "Tutorial"
-permalink: /talks/2013-03-01-tutorial-1
-venue: "UC-Berkeley Institute for Testing Science"
-date: 2013-03-01
-location: "Berkeley CA, USA"
+type: "Documentary"
+permalink: /talks/2023-05-26-documentary
+venue: "The Ohio State University"
+date: 2023-05-26
+location: "columbus, Ohio"
 ---
+<p align="justify"> A new documentary chronicles my journey from impoverished Somalia to PhD at The Ohio State University.</p>
 
-[More information here](http://exampleurl.com)
+[Watch the Documentary](https://www.youtube.com/watch?v=zNHnvLAjuJU)
 
-This is a description of your tutorial, note the different field in type. This is a markdown files that can be all markdown-ified like any other post. Yay markdown!
