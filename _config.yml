@@ -22,9 +22,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "abdi.png"
-  name             : "Abdirashid"
+  name             : "Abdirashid Dahir"
   pronouns         : # example: "she/her"  
-  bio              : "I am a Doctoral Candidate in the Department of Geography, The Ohio State University"
+  bio              : "Doctoral Candidate in the Department of Geography, The Ohio State University"
   location         : "Columbus, OH"
   employer         : "The Ohio State University"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-0546-1311"
   semantic         : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Abdirashid-Dahir-3"
 
   # Repositories and software development
