@@ -6,6 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<p align="justify">I am currently on the academic job market for the 2024-2025 cycle.</p>
+
+<p align="justify">You can find my CV <a href="/files/Abdirashid.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
 <p align="justify">I am a PhD Candidate studying just transition to electric vehicles in the Department of Geography, The Ohio State University. I also hold a master's degree in Transportation Engineering from the University of Seoul, South Korea.</p>
 
