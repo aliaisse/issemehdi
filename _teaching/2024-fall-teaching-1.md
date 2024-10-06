@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "GEOG 4103 - Introductory Spatial Data Analysis"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-fall-teaching-1
