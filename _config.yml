@@ -37,7 +37,7 @@ author:
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-0546-1311"
   semantic         : # URL
   #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/profile/Abdirashid-Dahir-3"
+  researchgate     : #"https://www.researchgate.net/profile/Abdirashid-Dahir-3"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
