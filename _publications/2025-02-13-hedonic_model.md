@@ -2,9 +2,9 @@
 title: "Impacts of Bicycle Facilities on Residential Property Values in 11 US Cities"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-09-05-paper-title-number-2
+permalink: /publication/2025-02-13-paper-title-number-2
 excerpt: 'Open Access.'
-date: 2024-09-05
+date: 2025-02-13
 venue: 'Journal of Transport Geography'
 #slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: '/files/hedonic_paper.pdf'
