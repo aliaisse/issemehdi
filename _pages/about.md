@@ -33,7 +33,7 @@ redirect_from:
   border-collapse: collapse;
   width: 100%;
   border: none;
-  font-size: 17px;
+  font-size: 19px;
 }
 .no-border-table td {
   border: none;
@@ -52,8 +52,8 @@ redirect_from:
   <tr>
     <td class="date-cell">2/25/2025</td>
     <td>
-      My paper 
-      <a href="https://www.sciencedirect.com/science/article/pii/S0966692325003777" 
+      My paper with Huyen Le 
+      <a href="https://doi.org/10.1016/j.jtrangeo.2025.104146" 
          target="_blank" 
          rel="noopener noreferrer">
          "Impacts of bicycle facilities on residential property values in 11 US cities"
