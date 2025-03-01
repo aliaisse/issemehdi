@@ -17,6 +17,3 @@ citation: 'Dahir, A, Le, H.T.K. (2025). &quot;Impacts of bicycle facilities on r
 
 <p align="center"> <img src="/images/hedonic_map.png" style = "border:0"> </p>
 <p font size = "8" align="center"><i> Eleven US cities included in this study. </i></p>
-
-<p align="center"> <img src="/images/sales_price.png" style = "border:0"> </p>
-<p font size = "8" align="center"><i> Sales price of single-family and multifamily properties in Minneapolis. Source of data: Zillow. </i></p>
