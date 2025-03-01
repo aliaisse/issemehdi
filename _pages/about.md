@@ -24,4 +24,41 @@ redirect_from:
 <p align="center"> <img src="/images/Somalia.png" style = "border:0"> </p>
 <p font size = "8" align="center"><i> This figure reveals that my birth country Somalia is on the frontline of climate vulnerability while contributing virtually zero to global carbon emissions. Figure adapted from Scientific American : Miriam Quick and Jen Christiansen; Sources: Global Carbon Institute via Our World in Data (carbon dioxide emissions data); Notre Dame Global Adaptation Initiative (climate vulnerability index data) </i></p>
 
-<p align="justify">Apart from my dissertation project, I studied sustainable transportation and urban development in the US context. I have published a new article with my advisor Huyen Le on the <a href="https://www.sciencedirect.com/science/article/pii/S0966692325003777">"Impacts of bicycle facilities on residential property values in 11 US cities"</a> in the <i>Journal of Transport Geography</i>. I also completed a manuscript on the impacts of bicycle networks on bicycling in 12 US cities. Prior to joining The Ohio State University as a PhD student, I studied how Asian cities are different from North American and European contexts in an era of knowledge-based innovation and services in post-industrial cities at the University of Seoul in South Korea. I also worked with <a href="https://transitcosts.com/about/">research scholars</a> at the Marron Institute of Urban Management at New York University to develop a database with over 500 transit projects from more than 40 countries to understand the drivers of transit infrastructure costs on a global scale to give American cities a sustainable alternative to a future in thrall to gasoline vehicle use.  </p>
+<p align="justify">Apart from my dissertation project, I studied sustainable transportation and urban development in the US context. I have published a new article with my advisor Huyen Le on the "Impacts of bicycle facilities on residential property values in 11 US cities" in the <i>Journal of Transport Geography</i>. I also completed a manuscript on the impacts of bicycle networks on bicycling in 12 US cities. Prior to joining The Ohio State University as a PhD student, I studied how Asian cities are different from North American and European contexts in an era of knowledge-based innovation and services in post-industrial cities at the University of Seoul in South Korea. I also worked with <a href="https://transitcosts.com/about/">research scholars</a> at the Marron Institute of Urban Management at New York University to develop a database with over 500 transit projects from more than 40 countries to understand the drivers of transit infrastructure costs on a global scale to give American cities a sustainable alternative to a future in thrall to gasoline vehicle use.  </p>
+
+## News
+
+<style>
+.no-border-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+}
+.no-border-table td {
+  border: none;
+  word-wrap: break-word;
+  padding: 5px;
+  vertical-align: top;
+}
+.date-cell {
+  width: 100px;
+  color: #777;
+  white-space: nowrap;
+}
+</style>
+
+<table class="no-border-table">
+  <tr>
+    <td class="date-cell">2/25/2025</td>
+    <td>
+      My paper 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0966692325003777" 
+         target="_blank" 
+         rel="noopener noreferrer">
+         "Impacts of bicycle facilities on residential property values in 11 US cities"
+      </a> 
+      was published in the <em>Journal of Transport Geography</em>!
+    </td>
+  </tr>
+</table>
