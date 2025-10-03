@@ -3,6 +3,7 @@ layout: single
 title: "About me"
 author: me
 author_profile: true
+<img src="{{ '/images/mehdi.jpg' | relative_url }}" width="140" alt="test">
 ---
 
 
