@@ -15,9 +15,10 @@ enable_darkmode: false
 academicons: true
 
 # ---------- Author (single author) ----------
+# _config.yml (single-author)
 author:
   name: "Ali A. Isse"
-  avatar: "/imagesprofile.jpg"   # file at repo root; case-sensitive
+  avatar: "https://aliaisse.github.io/issemehdi/imagesprofile.jpg"  # absolute URL
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
