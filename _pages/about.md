@@ -9,8 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-**Ph.D. Candidate, Security Studies**, School of Public & International Affairs, Princeton University  
-**Visiting Scholar (2025–26)**, Nuclear Security Program, MacMillan Center, Yale University
+I am researcher in international security specializing in nuclear deterrence, coercive diplomacy, strategic studies, and the politics of war and peace.
 
 You can find my CV **[here]({{ '/files/CV.pdf' | relative_url }})**.
 
