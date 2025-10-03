@@ -5,7 +5,7 @@ author: me
 author_profile: true
 <img src="{{ '/images/mehdi.jpg' | relative_url }}" width="140" alt="test">
 ---
-
+<img src="{{ '/images/mehdi.jpg' | relative_url }}" width="140" alt="test">
 
 I am researcher in international security specializing in nuclear deterrence, coercive diplomacy, strategic studies, and the politics of war and peace.
 
