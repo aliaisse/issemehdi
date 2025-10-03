@@ -1,8 +1,8 @@
 ---
+layout: single
 title: "About me"
-layout: single   # <- no blog listing
+# If you didn’t add the defaults block in _config.yml, keep this:
 author_profile: true
-permalink: /
 ---
+Welcome — short intro here. See my [CV](/issemehdi/files/CV.pdf).
 
-Welcome — short intro here. See my [CV](/cv/).
