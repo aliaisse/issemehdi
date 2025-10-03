@@ -15,7 +15,7 @@ minimal_mistakes_skin: default
 enable_darkmode: false
 
 # ---------- Author (sidebar card) ----------
-author: me
+me: 
   name: "Ali A. Isse"
   avatar: "/images/profile.jpg"   # must match the real file path+name
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
