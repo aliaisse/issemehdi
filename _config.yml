@@ -17,7 +17,7 @@ header_pages: []                    # use _data/navigation.yml for menu
 
 # ---------- Author (sidebar card) ----------
 author:
-  avatar: "issemehdi/images/profile.jpg"     # file must exist at images/profile.jpg
+  avatar: "/issemehdi/images/profile.jpg"     # file must exist at images/profile.jpg
   name: "Ali A. Isse"
   bio: "Ph.D. Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
