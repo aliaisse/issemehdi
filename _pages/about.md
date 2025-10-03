@@ -1,12 +1,10 @@
 ---
 layout: single
-permalink: /
 title: "About me"
+author: me
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
+
 
 I am researcher in international security specializing in nuclear deterrence, coercive diplomacy, strategic studies, and the politics of war and peace.
 
