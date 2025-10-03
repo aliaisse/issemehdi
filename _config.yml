@@ -5,53 +5,47 @@ title_separator: "-"
 name: "Ali A. Isse"
 description: "Personal site"
 
-url: "https://aliaisse.github.io"   # your user domain
+url: "https://aliaisse.github.io"   # user domain
 baseurl: "/issemehdi"               # MUST match repo name
 repository: "aliaisse/issemehdi"
 
-# ---------- Theme (GitHub Pages safe) ----------
+# ---------- Theme ----------
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: default
 enable_darkmode: false
 
-
 # ---------- Author (sidebar card) ----------
 author:
   name: "Ali A. Isse"
-  avatar: "/images/profile.jpg"   # <- leading slash is safest
+  avatar: "/images/profile.jpg"   # <-- put the file here, exact path/case
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   institution: "Princeton University"
   email: "ai9431@princeton.edu"
-  # optional handles:
-  twitter : "IsseMehdi"
-  github  : "aliaisse"
-  linkedin: "mehdi-i-28a95683"
   links:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/your-id"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0000-0000-0000"
+      url: "https://scholar.google.com/"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/aliaisse"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/your-handle/"
+      url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
     - label: "Twitter"
       icon: "fab fa-twitter"
-      url: "https://twitter.com/your-handle"
+      url: "https://twitter.com/IsseMehdi"
+    - label: "ORCID"
+      icon: "fas fa-id-card"      # (Font Awesome fallback; ORCID icon needs Academicons)
+      url: "https://orcid.org/"
 
-# ---------- Collections ----------
+# ---------- Navigation ----------
+# Header items come from _data/navigation.yml
+
+# ---------- Collections (optional) ----------
 collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  talks:
-    output: true
-    permalink: /talks/:path/
+  publications: { output: true, permalink: /publications/:path/ }
+  talks:         { output: true, permalink: /talks/:path/      }
 
 # ---------- Defaults ----------
 defaults:
@@ -60,8 +54,6 @@ defaults:
   - scope: { path: "", type: publications }
     values: { layout: single, author_profile: true }
   - scope: { path: "", type: talks }
-    values: { layout: single, author_profile: true }
-  - scope: { path: "", type: teaching }
     values: { layout: single, author_profile: true }
 
 # ---------- Markdown / Plugins ----------
@@ -72,15 +64,12 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jemoji
   - jekyll-include-cache
 
 # ---------- Include / Exclude ----------
-include:
-  - _pages
-  - files
+include: [ _pages, files ]
 exclude:
   - node_modules
   - vendor
@@ -92,7 +81,6 @@ exclude:
   - README
   - README.md
   - LICENSE
-
 
 # ---------- Other ----------
 permalink: /:categories/:title/
