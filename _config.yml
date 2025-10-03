@@ -21,7 +21,7 @@ repository               : " /issemehdi"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "/images/profile.jpg"
   name             : "Ali A Isse"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate-School of Public & International Affairs"
