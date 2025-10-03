@@ -1,15 +1,17 @@
 me:
   name: "Ali A. Isse"
-  avatar: "/images/mehdi.jpg"
+  avatar: "/images/mehdi.jpg"   # change to /images/Mehdi.jpg if that’s the actual case
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
+  location: "Princeton, NJ"
+  employer: "Princeton University"
   email: "ai9431@princeton.edu"
-  links:  # same list as above
+  links:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/..."
+      url: "https://scholar.google.com/..."        # your profile
     - label: "ORCID"
       icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0000-0000-0000"
+      url: "https://orcid.org/0000-0000-0000-0000" # your ORCID
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/aliaisse"
