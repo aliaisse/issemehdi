@@ -1,7 +1,8 @@
 ---
 title: "Home"
-layout: page        # <- was: home
-permalink: /
+layout: single   # <- no blog listing
 author_profile: true
+permalink: /
 ---
-Welcome — short intro here. See my [CV](/CV/).
+
+Welcome — short intro here. See my [CV](/cv/).
