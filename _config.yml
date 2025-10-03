@@ -4,11 +4,11 @@ title: "Ali A. Isse"
 title_separator: "-"
 name: "Ali A. Isse"
 description: "Personal site"
-
 url: "https://aliaisse.github.io"   # user domain
 baseurl: "/issemehdi"               # MUST match repo name
 repository: "aliaisse/issemehdi"
-
+# _config.yml
+academicons: true
 # ---------- Theme ----------
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: default
