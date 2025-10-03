@@ -1,6 +1,7 @@
 ---
-layout: home
 title: "Home"
-author_profile: true   # <-- this makes the author sidebar show
+layout: page        # <- was: home
+permalink: /
+author_profile: true
 ---
-Welcome — short intro here. See my [CV]({{ '/files/CV.pdf' | relative_url }}).
+Welcome — short intro here. See my [CV](/CV/).
