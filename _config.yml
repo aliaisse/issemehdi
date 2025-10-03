@@ -27,7 +27,8 @@ academicons: true
 author:
   name: "Ali A. Isse"
   # IMPORTANT: do NOT include the baseurl here; the theme adds it for you.
-  avatar: "/imagesprofile.jpg"      # file must exist exactly at images/profile.jpg
+  avatar: "/imagesprofile.jpg"   # note: leading slash, no /issemehdi
+# file must exist exactly at images/profile.jpg
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
