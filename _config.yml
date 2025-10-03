@@ -17,10 +17,12 @@ enable_darkmode: false
 
 # ---------- Author (sidebar card) ----------
 author:
-  name    : "Ali A. Isse"
-  avatar  : "images/profile.jpg"   # <-- path the theme expects
-  bio     : "Ph.D. Candidate in Security Studies, SPIA, Princeton University"
-  email   : "ai9431@princeton.edu"
+  name: "Ali A. Isse"
+  avatar: "/images/profile.jpg"   # <- leading slash is safest
+  bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
+  location: "Princeton, NJ"
+  institution: "Princeton University"
+  email: "ai9431@princeton.edu"
   # optional handles:
   twitter : "IsseMehdi"
   github  : "aliaisse"
