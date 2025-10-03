@@ -4,72 +4,74 @@ title: "Ali A. Isse"
 title_separator: "-"
 name: "Ali A. Isse"
 description: "Personal site"
-url: "https://aliaisse.github.io"   # user domain
-baseurl: "/issemehdi"               # MUST match repo name
+url: "https://aliaisse.github.io"
+baseurl: "/issemehdi"
 repository: "aliaisse/issemehdi"
-# _config.yml
-academicons: true
+
 # ---------- Theme ----------
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: default
 enable_darkmode: false
 academicons: true
-# ---------- Author (sidebar card) ----------
-# --- basics ---
-url: "https://aliaisse.github.io"
-baseurl: "/issemehdi"
 
-# --- author ---
+# ---------- Author (single author) ----------
 author:
   name: "Ali A. Isse"
-  # IMPORTANT: do NOT include the baseurl here; the theme adds it for you.
-  avatar: "/imagesprofile.jpg"   # note: leading slash, no /issemehdi
-# file must exist exactly at images/profile.jpg
+  avatar: "/imagesprofile.jpg"   # file at repo root; case-sensitive
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
-links:
-    label: "Google Scholar"
-    icon: "ai ai-google-scholar"
-    url: "https://scholar.google.com/"
-    label: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/aliaisse"
-    abel: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
-    abel: "Twitter"
-    icon: "fab fa-twitter"
-    url: "https://twitter.com/IsseMehdi"
-    label: "ORCID"
-    icon: "ai ai-orcid"
-    url: "https://orcid.org/"
-
-# show the left profile by default (optional; keeps front matter lighter)
-defaults:
-  - scope: { path: "", type: "pages" }
-    values: { author_profile: true }
-
-# ---------- Navigation ----------
-# Header items come from _data/navigation.yml
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/aliaisse"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/IsseMehdi"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/"
 
 # ---------- Collections (optional) ----------
 collections:
-  publications: { output: true, permalink: /publications/:path/ }
-  talks:         { output: true, permalink: /talks/:path/      }
+  publications:
+    output: true
+    permalink: /publications/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
 
 # ---------- Defaults ----------
 defaults:
-  - scope: { path: "", type: pages }
-    values: { layout: single, author_profile: true }
-  - scope: { path: "", type: publications }
-    values: { layout: single, author_profile: true }
-  - scope: { path: "", type: talks }
-    values: { layout: single, author_profile: true }
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
 
 # ---------- Markdown / Plugins ----------
 markdown: kramdown
-kramdown: { input: GFM }
+kramdown:
+  input: GFM
 
 plugins:
   - jekyll-remote-theme
@@ -80,7 +82,9 @@ plugins:
   - jekyll-include-cache
 
 # ---------- Include / Exclude ----------
-include: [ _pages, files ]
+include:
+  - _pages
+  - files
 exclude:
   - node_modules
   - vendor
@@ -92,7 +96,3 @@ exclude:
   - README
   - README.md
   - LICENSE
-
-# ---------- Other ----------
-permalink: /:categories/:title/
-timezone: Etc/UTC
