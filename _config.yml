@@ -17,26 +17,25 @@ enable_darkmode: false
 # ---------- Author (sidebar card) ----------
 author:
   name: "Ali A. Isse"
-  avatar: "/images/profile.jpg"   # <-- put the file here, exact path/case
+  avatar: "/images/profile.jpg?v=1"   # must match the real file path+name
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
-  institution: "Princeton University"
   email: "ai9431@princeton.edu"
   links:
     - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/"
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/aliaisse"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
     - label: "Twitter"
-      icon: "fab fa-twitter"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/IsseMehdi"
     - label: "ORCID"
-      icon: "fas fa-id-card"      # (Font Awesome fallback; ORCID icon needs Academicons)
+      icon: "fas fa-fw fa-id-card"
       url: "https://orcid.org/"
 
 # ---------- Navigation ----------
