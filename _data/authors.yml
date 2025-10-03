@@ -1,17 +1,17 @@
 me:
   name: "Ali A. Isse"
-  avatar: "/images/profile.jpg"   # <-- match exact case: Mehdi.jpg vs mehdi.jpg
+  avatar: "/issemehdi/images/profile.jpg"   # include baseurl
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   employer: "Princeton University"
   email: "ai9431@princeton.edu"
   links:
     - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/..."        # your profile
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/..."
     - label: "ORCID"
       icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0000-0000-0000" # your ORCID
+      url: "https://orcid.org/0000-0000-0000-0000"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/aliaisse"
@@ -20,4 +20,4 @@ me:
       url: "https://www.linkedin.com/in/your-handle/"
     - label: "Twitter"
       icon: "fab fa-twitter"
-      url: "https://twitter.com/your-handle"
+      url: "https://twitter.com/your-handle"  # no trailing text
