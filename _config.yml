@@ -49,9 +49,6 @@ collections:
   talks:
     output: true
     permalink: /talks/:path/
-  teaching:
-    output: true
-    permalink: /teaching/:path/
 
 # ---------- Defaults ----------
 defaults:
