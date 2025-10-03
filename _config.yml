@@ -15,10 +15,21 @@ minimal_mistakes_skin: default
 enable_darkmode: false
 
 # ---------- Author (sidebar card) ----------
+# --- basics ---
+url: "https://aliaisse.github.io"
+baseurl: "/issemehdi"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: default
+academicons: true
+
+# --- author ---
 author:
   name: "Ali A. Isse"
-  avatar: "/issemehdi/images/profile.jpg"
+  # IMPORTANT: do NOT include the baseurl here; the theme adds it for you.
+  avatar: "/images/profile.jpg"      # file must exist exactly at images/profile.jpg
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
+  location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
   links:
     - label: "Google Scholar"
@@ -36,6 +47,11 @@ author:
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/"
+
+# show the left profile by default (optional; keeps front matter lighter)
+defaults:
+  - scope: { path: "", type: "pages" }
+    values: { author_profile: true }
 
 # ---------- Navigation ----------
 # Header items come from _data/navigation.yml
