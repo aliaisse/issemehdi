@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "About me"
 author: me
-layout: single   # <- no blog listing
+layout: home   # <- no blog listing
 author_profile: true
 permalink: /
 ---
