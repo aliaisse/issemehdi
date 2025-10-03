@@ -92,7 +92,7 @@ exclude:
   - README
   - README.md
   - LICENSE
-  
+
 
 # ---------- Other ----------
 permalink: /:categories/:title/
