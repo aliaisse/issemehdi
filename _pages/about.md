@@ -24,3 +24,4 @@ I hold an M.A. in Public Affairs from Princeton University; an M.A. in Political
 
 For more information about my research, teaching, or service, please feel free to contact me.
 
+
