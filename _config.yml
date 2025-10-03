@@ -15,31 +15,33 @@ enable_darkmode: false
 academicons: true
 
 # ---------- Author (single author) ----------
-# _config.yml (single-author)
+# _config.yml (single-author) 
 author:
   name: "Ali A. Isse"
-  avatar: "https://aliaisse.github.io/issemehdi/imagesprofile.jpg"  # absolute URL
+  avatar: "https://aliaisse.github.io/issemehdi/imagesprofile.jpg"
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
+
+  # ↓↓↓ LINKS (must be indented under 'author' exactly like this) ↓↓↓
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aliaisse"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/IsseMehdi"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/aliaisse"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/IsseMehdi"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/"
 
-# ---------- Collections (optional) ----------
+--------- Collections (optional) ----------
 collections:
   publications:
     output: true
