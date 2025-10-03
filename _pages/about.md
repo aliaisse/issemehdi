@@ -45,8 +45,7 @@ Robertson Hall, Princeton, NJ</p>
 
 <table class="no-border-table">
   <tr>
-    <td class="date-cell">2/25/2025</td>
-    <td>
+   
      
     </td>
   </tr>
