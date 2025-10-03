@@ -1,5 +1,6 @@
 ---
 title: "Home"
+author: me
 layout: single   # <- no blog listing
 author_profile: true
 permalink: /
