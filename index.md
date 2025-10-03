@@ -5,4 +5,3 @@ title: "About me"
 author_profile: true
 ---
 Welcome — short intro here. See my [CV](/issemehdi/files/CV.pdf).
-
