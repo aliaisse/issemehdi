@@ -17,7 +17,7 @@ header_pages: []                    # use _data/navigation.yml for menu
 
 # ---------- Author (sidebar card) ----------
 author:
-  avatar: "/issemehdi/image/mehdi.jpg"
+  avatar: "/images/mehdi.jpg"   # <-- NOT /issemehdi/images/...
   name: "Ali A. Isse"
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
