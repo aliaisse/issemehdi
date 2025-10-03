@@ -1,6 +1,6 @@
 me:
   name: "Ali A. Isse"
-  avatar: "/images/Mehdi.jpg"   # <-- match exact case: Mehdi.jpg vs mehdi.jpg
+  avatar: "/images/profile.jpg"   # <-- match exact case: Mehdi.jpg vs mehdi.jpg
   bio: "PhD Candidate · Nuclear deterrence, coercive diplomacy, preventive war."
   location: "Princeton, NJ"
   employer: "Princeton University"
