@@ -12,6 +12,6 @@ My work contributes to understanding the strategic, political, and normative dim
 
 I hold an M.A. in Public Affairs from Princeton University; an M.A. in Political Science from the University of Chicago as a Maroon Scholar; an M.S. in City and Regional Planning from The Ohio State University, where I passed my comprehensive exams with Highest Distinction; and a B.A. in Political Science from the University of Texas San Antonio.
 
-For more information about my research, teaching, or service, please do not hesitate to contact me.
+For more information about my research, teaching, or service, please feel free to contact me.
 
 See my [CV](/issemehdi/files/CV.pdf).
