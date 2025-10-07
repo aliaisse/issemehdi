@@ -26,9 +26,9 @@ Emphasizes theoretical approaches, political economy perspectives, and the role 
 <div class="course">
   <span class="title">Introduction to Research Design (Undergraduate)</span> — Princeton University,
   <span class="meta">Fall 2024 · ~75 students</span>
-  <div class="desc">Introduced undergraduates to the principles of research design and the logic of social inquiry.
-Emphasized analytical reading, annotated bibliographies, and literature review writing as foundations for independent research.
-Prepared students to write their junior and senior theses in public and international affairs.</div>
+  <div class="desc">Introduces undergraduates to the principles of research design and the logic of social inquiry.
+Emphasizes analytical reading, annotated bibliographies, and literature review writing as foundations for independent research.
+Prepares students to write their junior and senior theses in public and international affairs.</div>
   <div class="tiny"><a href="{{ "/files/syllabi/Intro_Research_Design.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
 </div>
 
