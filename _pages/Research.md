@@ -5,24 +5,35 @@ permalink: /research/
 author_profile: true
 ---
 
-## Working papers & manuscripts
+<style>
+  .navy{color:#0A2A66;}
+  ul.tight li{margin-bottom:.25rem;}
+</style>
 
-- **Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence**  
-  *Target: Journal of Strategic Studies.*  
-- **Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran**  
-  *Target: Journal of Conflict Resolution.*  
-- **From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees**  
-  *Target: Nonproliferation Review.*  
-- **Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW**  
-  *Under review (2024).*  
-- **The Strategies of Coercion in the Nuclear Era: From Diplomacy to War**  
-  *Forthcoming (2024).*  
-- **State Building in Somalia: The Role of International Actors and Actions**  
-  *Knowledge UChicago (2021).*  
-:contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+## <span class="navy">Publications & Manuscripts</span>
 
-### Data & replication
+<ul class="tight">
+  <li><strong>Isse, A.</strong> (2026). <em>Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</em>. <em>Manuscript</em>.</li>
+
+  <li><strong>Isse, A.</strong> (2026). <em>Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</em>. <em>Manuscript</em>.</li>
+
+  <li><strong>Isse, A.</strong> (2026). <em>From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees</em>. <em>Manuscript</em>.</li>
+
+  <li><strong>Isse, A.</strong> (2024). <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. <em>Under review</em>.</li>
+
+  <li><strong>Isse, A.</strong> (2024). <em>The Strategies of Coercion in the Nuclear Era: From Diplomacy to War</em>. <em>Forthcoming</em>.</li>
+</ul>
+
+### <span class="navy">Other papers</span>
+
+<ul class="tight">
+  <li><strong>Isse, A.</strong> (2021). <em>Statebuilding in Somalia: The Role of International Actors and Actions</em>. University of Chicago.</li>
+
+  <li><strong>Isse, A.</strong> (2018). <em>Spatial Integration of Immigrants: A Case Study of East African Immigrants in Columbus, Ohio</em>. The Ohio State University.</li>
+</ul>
+
+### <span class="navy">Data & replication</span>
 Coming soon.
 
-### Contact
-If you’d like a draft, email me at `ai9431@princeton.edu`.
+### <span class="navy">Contact</span>
+For drafts or citations, email <code>ai9431@princeton.edu</code>.
