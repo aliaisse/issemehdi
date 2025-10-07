@@ -13,15 +13,16 @@ author_profile: true
 ## <span class="navy">Publications & Manuscripts</span>
 
 <ul class="tight">
-  <li><strong>Isse, A.</strong> (2026). <em>Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</em>. <em>Manuscript</em>.</li>
 
-  <li><strong>Isse, A.</strong> (2026). <em>Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</em>. <em>Manuscript</em>.</li>
+  <strong>Isse, A.</strong> (2026). <em>From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees</em>. <em>Manuscript</em>.</li>
 
-  <li><strong>Isse, A.</strong> (2026). <em>From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees</em>. <em>Manuscript</em>.</li>
+<strong>Isse, A.</strong> (2025). <em>Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</em>. <em>Manuscript</em>.</li>
 
-  <li><strong>Isse, A.</strong> (2024). <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. <em>Under review</em>.</li>
+  <strong>Isse, A.</strong> (2025). <em>Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</em>. <em>Manuscript</em>.</li>
+  <strong>Isse, A.</strong> (2024). <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. <em>Under review</em>.</li>
 
-  <li><strong>Isse, A.</strong> (2024). <em>The Strategies of Coercion in the Nuclear Era: From Diplomacy to War</em>. <em>Forthcoming</em>.</li>
+  <strong>Isse, A.</strong> (2024). <em>The Strategies of Coercion in the Nuclear Era: From Diplomacy to War</em>. <em>Forthcoming</em></li>
+
 </ul>
 
 ### <span class="navy">Other papers</span>
