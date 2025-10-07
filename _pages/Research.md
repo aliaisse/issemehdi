@@ -26,4 +26,3 @@ Coming soon.
 
 ### Contact
 If you’d like a draft, email me at `ai9431@princeton.edu`.
-
