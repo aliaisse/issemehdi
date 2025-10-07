@@ -19,7 +19,6 @@ author_profile: true
   Contributor on the Global Nuclear Order panel.  
 - **Interdisciplinary Graduate Conference**, University of Chicago (Apr 2021).  
   Spotlight paper presentation.  
-:contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
 
 ## Invited talks & research presentations
 
