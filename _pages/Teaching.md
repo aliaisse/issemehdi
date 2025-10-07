@@ -17,14 +17,18 @@ author_profile: true
 <div class="course">
   <span class="title">International Organizations (Undergraduate)</span> — Princeton University,
   <span class="meta">Spring 2025 · ~400 students</span>
-  <div class="desc">Discussion sections, office hours, assessment; topics include the design, politics, and performance of international organizations.</div>
+  <div class="desc">Examines the politics, structure, and effectiveness of international organizations in global governance.
+Analyzes cooperation, power, and legitimacy through case studies of the IMF, World Bank, UN, WTO, NATO, and regional institutions.
+Emphasizes theoretical approaches, political economy perspectives, and the role of institutions in shaping international order.</div>
   <div class="tiny"><a href="{{ "/files/syllabi/International_Organizations.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
 </div>
 
 <div class="course">
   <span class="title">Introduction to Research Design (Undergraduate)</span> — Princeton University,
   <span class="meta">Fall 2024 · ~75 students</span>
-  <div class="desc">Weekly sections, office hours, grading; coverage of causal inference, measurement, and research transparency. Lecture support as needed.</div>
+  <div class="desc">Introduced undergraduates to the principles of research design and the logic of social inquiry.
+Emphasized analytical reading, annotated bibliographies, and literature review writing as foundations for independent research.
+Prepared students to write their junior and senior theses in public and international affairs.</div>
   <div class="tiny"><a href="{{ "/files/syllabi/Intro_Research_Design.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
 </div>
 
