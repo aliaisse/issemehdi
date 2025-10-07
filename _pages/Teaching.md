@@ -20,4 +20,3 @@ author_profile: true
 ### The Ohio State University
 - **CRPLAN 3100: Analyzing the City**  
   Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata). *Fall 2017.*  
-
