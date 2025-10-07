@@ -8,7 +8,7 @@ url: "https://aliaisse.github.io"
 baseurl: "/issemehdi"
 repository: "aliaisse/issemehdi"
 
-# ---------- Theme ----------
+# ---------- Theme ---------- these are all i got in the config. what should change 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: default
 enable_darkmode: false
@@ -18,28 +18,51 @@ academicons: true
 # _config.yml (single-author) 
 author:
   name: "Ali A. Isse"
-  # Do NOT include the domain or /issemehdi here. The theme adds baseurl for you.
-  avatar: "/images/profile.jpg"   # put the file at issemehdi/images/profile.jpg
-  bio: "Ph.D. Candidate · School of Public and International Affairs, Princeton University"
+  avatar: "https://aliaisse.github.io/issemehdi/imagesprofile.jpg"
+  bio: "Ph.D. Candidate. School of PUblic and International Affair. Princeton University"
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
 
-  links:
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0009-0009-0548-6234"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/aliaisse"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/mehdi-i-28a95683/"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://x.com/issemehdi"
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0009-0009-0548-6234"
+  semantic         : # URL
+  #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : #"abdirashid" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "mehdi-i-28a95683"
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : "issemehdi" # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # URL
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
@@ -289,8 +312,7 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -315,4 +337,4 @@ tag_archive:
 compress_html:
   clippings: all
   ignore:
-    envs: development 
+    envs: development
