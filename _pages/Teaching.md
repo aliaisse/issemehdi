@@ -5,18 +5,23 @@ permalink: /teaching/
 author_profile: true
 ---
 
-### Princeton University
-- **POL 396: International Organizations** — *Preceptor (TA)*  
-  3 weekly precepts; office hours; grading exams and assignments. *Spring 2025 (≈400 students).*  
-- **SPI 299: Introduction to Research Design** — *Preceptor (TA)*  
-  Weekly precepts; office hours; graded assignments and exams; covered lectures when instructor unavailable. *Fall 2024 (≈75 students).*  
-:contentReference[oaicite:6]{index=6}
+<style>
+  .navy{color:#0A2A66;}
+  ul.tight li{margin-bottom:.2rem;}
+</style>
 
-### University of Chicago
-- **SOCI 30100: Mathematics for Social Science (Math Camp)**  
-  Instruction on calculus fundamentals, matrix algebra, set theory, proofs, and introductory probability. *2021.*  
-:contentReference[oaicite:7]{index=7}
+## <span class="navy">Princeton University</span>
+<ul class="tight">
+  <li><strong>POL 396: International Organizations</strong> — <em>discussion sections, office hours, grading</em>. Spring 2025 (~400 students).</li>
+  <li><strong>SPI 299: Introduction to Research Design</strong> — <em>discussion sections, office hours, grading, lecture support</em>. Fall 2024 (~75 students).</li>
+</ul>
 
-### The Ohio State University
-- **CRPLAN 3100: Analyzing the City**  
-  Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata). *Fall 2017.*  
+## <span class="navy">University of Chicago</span>
+<ul class="tight">
+  <li><strong>SOCI 30100: Mathematics for Social Science (Math Camp)</strong> — <em>calculus, matrix algebra, logic, introductory probability</em>. 2021.</li>
+</ul>
+
+## <span class="navy">The Ohio State University</span>
+<ul class="tight">
+  <li><strong>CRPLAN 3100: Analyzing the City</strong> — <em>lab instruction in quantitative & spatial analysis (ArcGIS, Excel, Stata)</em>. Fall 2017.</li>
+</ul>
