@@ -6,35 +6,30 @@ author_profile: true
 ---
 
 <style>
-  .navy{color:#0A2A66;}
-  ul.tight li{margin-bottom:.25rem;}
+  .title{color:#0A2A66}          /* navy title only */
+  .pub{margin:0 0 .55rem 0}      /* tight vertical rhythm */
+  .section{margin-top:1.2rem}
 </style>
 
-## <span class="navy">Publications & Manuscripts</span>
+## Publications & manuscripts
 
-<ul class="tight">
+<div class="pub">Isse, A. (2026). <span class="title">Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</span>. <em>Manuscript.</em></div>
 
-  <strong>Isse, A.</strong> (2026). <em>From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees</em>. <em>Manuscript</em>.</li>
+<div class="pub">Isse, A. (2026). <span class="title">Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</span>. <em>Manuscript.</em></div>
 
-<strong>Isse, A.</strong> (2025). <em>Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</em>. <em>Manuscript</em>.</li>
+<div class="pub">Isse, A. (2026). <span class="title">From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees</span>. <em>Manuscript.</em></div>
 
-  <strong>Isse, A.</strong> (2025). <em>Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</em>. <em>Manuscript</em>.</li>
-  <strong>Isse, A.</strong> (2024). <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. <em>Under review</em>.</li>
+<div class="pub">Isse, A. (2024). <span class="title">Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</span>. <em>Under review.</em></div>
 
-  <strong>Isse, A.</strong> (2024). <em>The Strategies of Coercion in the Nuclear Era: From Diplomacy to War</em>. <em>Forthcoming</em></li>
+<div class="pub">Isse, A. (2024). <span class="title">The Strategies of Coercion in the Nuclear Era: From Diplomacy to War</span>. <em>Forthcoming.</em></div>
 
-</ul>
+<div class="section"></div>
+## Other papers
 
-### <span class="navy">Other papers</span>
+<div class="pub">Isse, A. (2021). <span class="title">Statebuilding in Somalia: The Role of International Actors and Actions</span>. University of Chicago.</div>
 
-<ul class="tight">
-  <li><strong>Isse, A.</strong> (2021). <em>Statebuilding in Somalia: The Role of International Actors and Actions</em>. University of Chicago.</li>
+<div class="pub">Isse, A. (2018). <span class="title">Spatial Integration of Immigrants: A Case Study of East African Immigrants in Columbus, Ohio</span>. The Ohio State University.</div>
 
-  <li><strong>Isse, A.</strong> (2018). <em>Spatial Integration of Immigrants: A Case Study of East African Immigrants in Columbus, Ohio</em>. The Ohio State University.</li>
-</ul>
-
-### <span class="navy">Data & replication</span>
-Coming soon.
-
-### <span class="navy">Contact</span>
-For drafts or citations, email <code>ai9431@princeton.edu</code>.
+<div class="section"></div>
+## Data & replication
+Coming soon. If you’d like a draft, email <code>ai9431@princeton.edu</code>.
