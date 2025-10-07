@@ -3,7 +3,6 @@ layout: single
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-toc: true
 ---
 
 ### Princeton University
