@@ -5,34 +5,45 @@ permalink: /talks/
 author_profile: true
 ---
 
-## Conference presentations
+<style>
+  .section-title{color:#0A2A66;font-weight:700;margin:1rem 0 .4rem}
+  .item{margin:0 0 .55rem 0}
+  .when{color:#6b7280}
+  .tiny a{font-size:.9rem;color:#6b7280;text-decoration:none}
+  .tiny a:hover{text-decoration:underline}
+</style>
 
-- **Alva Myrdal Center for Nuclear Disarmament**, Uppsala University (2025).  
-  Oral presentation: “Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW.”  
-- **82nd Annual MPSA Conference**, Chicago (Apr 2025).  
-  Lightning talk: *A. Isse & R. Omar*, “Regime Type, Anti-migrant Sentiments, and Support for State Surveillance in Public Space.”  
-- **Bridging the Gap — NEW Era Foreign Policy Conference**, University of Denver (Sep 2024).  
-  Panelist, roundtable discussions connecting academic research to policy.  
-- **Reimagining World Order**, Princeton PIIRS (Sep 2023).  
-  Small-group policy panels.  
-- **Center for International Security Studies Conference**, Princeton (Feb 2023).  
-  Contributor on the Global Nuclear Order panel.  
-- **Interdisciplinary Graduate Conference**, University of Chicago (Apr 2021).  
-  Spotlight paper presentation.  
+<div class="section-title">Conference presentations</div>
 
-## Invited talks & research presentations
+<div class="item"><span class="when">2025.</span> <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. Alva Myrdal Center for Nuclear Disarmament, Uppsala University — oral presentation.</div>
 
-- **International Relations Seminar**, Department of Political Science, Yale University (Oct 2025).  
-  Doctoral prospectus on deterrence, coercive diplomacy, and strategic stability.  
-- **Africa Policy Program**, LISD, Princeton (Oct 2024).  
-  “International Intervention and Regional Dynamics in Africa.”  
-- **Security Studies Seminar**, CISS, Princeton (Feb 2024).  
-  Research on nuclear deterrence and strategic dynamics.  
-- **Diversity & Inclusion Speaker Series**, Princeton SPIA (Mar 2023).  
-  “Coming to America: Challenges and Opportunities.”  
-- **Higher Education Forum**, Mogadishu (Jun 2022).  
-  “Promoting Education as a Tool for State Stability and Economic Development.”  
-- **Africa Youth Month** (DAN252) (Jun 2021).  
-  Virtual keynote.  
-- **Graduate Awards Reception**, Ohio State (Apr 2018).  
-  Student remarks for comprehensive-exam distinction recipients.  
+<div class="item"><span class="when">2025.</span> <em>Regime Type, Antimigrant Sentiments, and Support for State Surveillance in Public Space</em>. 82nd Annual MPSA Conference, Chicago — lightning talk (with R. Omar).</div>
+
+<div class="item"><span class="when">2024.</span> Bridging the Gap — NEW Era Foreign Policy Conference, University of Denver — panelist, roundtable discussions.</div>
+
+<div class="item"><span class="when">2023.</span> Reimagining World Order, Princeton PIIRS — small-group policy panels.</div>
+
+<div class="item"><span class="when">2023.</span> Center for International Security Studies Conference, Princeton — panel contributor on the global nuclear order.</div>
+
+<div class="item"><span class="when">2021.</span> Interdisciplinary Graduate Conference, University of Chicago — oral presentation (spotlight paper).</div>
+
+<div class="section-title">Invited talks & research presentations</div>
+
+<div class="item"><span class="when">2025.</span> International Relations Seminar, MacMillan Center, Yale University — doctoral prospectus presentation.</div>
+
+<div class="item"><span class="when">2024.</span> Africa Policy Program, LISD at Princeton — research talk on “International Intervention and Regional Dynamics in Africa.”</div>
+
+<div class="item"><span class="when">2024.</span> Security Studies Seminar, CISS at Princeton — research presentation on coercion and strategic dynamics.</div>
+
+<div class="item"><span class="when">2023.</span> Diversity & Inclusion Speaker Series, Princeton SPIA — “Coming to America: Challenges and Opportunities.”</div>
+
+<div class="item"><span class="when">2022.</span> Higher Education Forum, Mogadishu — keynote on education, stability, and development.</div>
+
+<div class="item"><span class="when">2021.</span> Public Policy Class, University of Chicago — guest lecture, “Weak States and International Relations.”</div>
+
+<div class="item"><span class="when">2021.</span> Africa Youth Month (virtual) — keynote on youth and nation-building.</div>
+
+<div class="item"><span class="when">2018.</span> Graduate Awards Reception, The Ohio State University — student remarks on comprehensive exam distinction.</div>
+
+<div class="section-title">Slides & materials</div>
+
