@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-**Download my CV:** [cv.pdf]({{ "/cv.pdf" | relative_url }})
+**Download my CV:** [CV](/issemehdi/CV.pdf).
