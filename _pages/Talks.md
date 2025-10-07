@@ -45,5 +45,5 @@ author_profile: true
 
 <div class="item"><span class="when">2018.</span> Graduate Awards Reception, The Ohio State University — student remarks on comprehensive exam distinction.</div>
 
-<div class="section-title">Slides & materials</div>
+<div class="section-title">Media & Public Engagement</div> - Comming Soon.
 
