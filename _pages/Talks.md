@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Talks"
-permalink: /Talks/
+permalink: /talks/
 author_profile: true
 toc: true
 ---
