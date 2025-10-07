@@ -38,4 +38,3 @@ toc: true
   Virtual keynote.  
 - **Graduate Awards Reception**, Ohio State (Apr 2018).  
   Student remarks for comprehensive-exam distinction recipients.  
-:contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
