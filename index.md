@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Welcome!"
+permalink: /author/
 # If you didn’t add the defaults block in _config.yml, keep this:
 author_profile: true
 ---
