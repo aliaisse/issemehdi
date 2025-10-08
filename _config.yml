@@ -17,7 +17,7 @@ academicons: true
 # ---------- Author (single author) ---------- 
 # _config.yml (single-author) 
 author:
-  name: "Ali A. Isse"
+  name: "Ali A. Isse" 
   avatar: author: 
   avatar: "/imagesprofile.jpg?v=4"
   bio: "Ph.D. Candidate. School of PUblic and International Affair. Princeton University"
@@ -339,3 +339,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
