@@ -14,7 +14,7 @@ minimal_mistakes_skin: default
 enable_darkmode: false
 academicons: true
 
-# ---------- Author (single author) ---------- 
+# ---------- Author (single author) ----------
 # _config.yml (single-author) 
 author:
   name: "Ali A. Isse" 
