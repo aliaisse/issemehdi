@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: false
 classes: wide
@@ -17,6 +16,3 @@ classes: wide
 <h1 class="page__title">
   <a href="{{ "/CV.pdf" | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
 </h1>
-
-<p><a href="{{ "/CV.pdf" | relative_url }}" target="_blank" rel="noopener">Open CV (PDF)</a></p>
-<p><a href="{{ "/CV.pdf" | relative_url }}" download>Download CV</a></p>
