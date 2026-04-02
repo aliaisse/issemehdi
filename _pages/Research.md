@@ -15,7 +15,7 @@ author_profile: true
 
 <div class="section-title">Publications & manuscripts</div>
 
-<div class="item"><span class="when">2026.</span> Isse, A. <span class="ptitle">Anglo-American Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</span>. <span class="status">Manuscript.</span></div>
+<div class="item"><span class="when">2026.</span> Isse, A. <span class="ptitle">US-UK Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence</span>. <span class="status">Manuscript.</span></div>
 
 <div class="item"><span class="when">2026.</span> Isse, A. <span class="ptitle">Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran</span>. <span class="status">Manuscript.</span></div>
 
