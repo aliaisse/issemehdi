@@ -14,5 +14,5 @@ classes: wide
 
 <!-- Our own clickable title inside the content area -->
 <h1 class="page__title">
-  <a href="{{ "/CV.pdf" | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
+  <a href="{{ "/cv.pdf" | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
 </h1>
