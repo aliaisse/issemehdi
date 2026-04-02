@@ -33,14 +33,14 @@ Prepares students to write their junior and senior theses in public and internat
 </div>
 
 <div class="course">
-  <span class="title">Mathematics for Social Science (Summer Math Camp)</span> — University of Chicago,
+  <span class="title">Mathematics for Social Science (Summer Math Camp)</span>
   <span class="meta">2021</span>
   <div class="desc">Short course on calculus fundamentals, matrix algebra, logic, and introductory probability for incoming graduate students.</div>
   <div class="tiny"><a href="{{ "/files/syllabi/Math_Camp.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
 </div>
 
 <div class="course">
-  <span class="title">Analyzing the City (Undergraduate)</span> — The Ohio State University,
+  <span class="title">Analyzing the City (Undergraduate)</span> —
   <span class="meta">Fall 2017</span>
   <div class="desc">Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata).</div>
   <div class="tiny"><a href="{{ "/files/syllabi/Analyzing_the_City.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
