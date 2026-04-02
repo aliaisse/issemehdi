@@ -10,7 +10,7 @@ For 2025–2026, I am a Nuclear Security Program Resident Fellow at Yale Univers
 
 My work has been presented at Uppsala University's Alva Myrdal Center for Nuclear Disarmament, the Midwest Political Science Association Annual Conference, Princeton's Center for International Security Studies, and Yale's MacMillan Center, among other venues. I am a Graduate Fellow at Princeton's Center for International Security Studies and have received support from Princeton PIIRS, the Princeton School of Public and International Affairs, and the Liechtenstein Institute on Self-Determination, among others.
 
-Prior to Princeton, I completed an M.A. in Political Science at the University of Chicago, where I was awarded the Maroon Scholar Research Award, and studied International Law, the Use of Force, and the Law of Armed Conflict at the University of Cambridge. I hold an M.A. in Public Affairs from Princeton University.
+I hold an M.A. in Public Affairs from Princeton University and an M.A. in Political Science from the University of Chicago, where I was awarded the Maroon Scholar Research Award. I also completed advanced coursework in international law, focusing on the use of force and the law of armed conflict, at the University of Cambridge.
 
 For more information about my research, teaching, or service, please feel free to contact me.
 
