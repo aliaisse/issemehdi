@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Welcome!"
 # If you didn’t add the defaults block in _config.yml, keep this:
 author_profile: true
 ---
