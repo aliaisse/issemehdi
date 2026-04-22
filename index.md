@@ -4,7 +4,7 @@ title: "Welcome!"
 # If you didn’t add the defaults block in _config.yml, keep this:
 author_profile: true
 ---
-I am a PhD candidate in Security Studies at Princeton University's School of Public and International Affairs. My research sits at the intersection of nuclear strategy, coercive diplomacy, and grand strategy, with a focus on how states respond to the most consequential security challenges of our time.
+Hello! My name is Mehdi Isse, and I am a PhD candidate in Security Studies at Princeton University's School of Public and International Affairs. My research sits at the intersection of nuclear strategy, coercive diplomacy, and grand strategy, with a focus on how states respond to the most consequential security challenges of our time.
 
 My research integrates quantitative and qualitative methods to study nuclear security. My work includes building original datasets, regression analysis, and theory-driven comparisons to identify patterns and explain strategic decision-making. I am particularly interested in drawing credible inferences from imperfect data, using small-N designs, careful case selection, and empirically grounded research strategies. 
 
