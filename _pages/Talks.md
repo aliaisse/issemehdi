@@ -17,13 +17,13 @@ author_profile: true
 
 <div class="item"><span class="when">2025.</span> <em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. Alva Myrdal Center for Nuclear Disarmament, Uppsala University — oral presentation.</div>
 
-<div class="item"><span class="when">2025.</span> <em>Regime Type, Antimigrant Sentiments, and Support for State Surveillance in Public Space</em>. 82nd Annual MPSA Conference, Chicago — lightning talk (with R. Omar).</div>
+<div class="item"><span class="when">2025.</span> <em>Regime Type, Antimigrant Sentiments, and Support for State Surveillance in Public Space</em>. 82nd Annual MPSA Conference, Chicago — lightning talk (with Omar R.).</div>
 
 <div class="item"><span class="when">2024.</span> Bridging the Gap — NEW Era Foreign Policy Conference, University of Denver — panelist, roundtable discussions.</div>
 
-<div class="item"><span class="when">2023.</span> Reimagining World Order, Princeton PIIRS — small-group policy panels.</div>
+<div class="item"><span class="when">2023.</span> Reimagining World Order, Princeton PIIRS — Conference Participant.</div>
 
-<div class="item"><span class="when">2023.</span> Center for International Security Studies Conference, Princeton — panel contributor on the global nuclear order.</div>
+<div class="item"><span class="when">2023.</span> Center for International Security Studies Conference, Princeton — contributor on the global nuclear order.</div>
 
 <div class="item"><span class="when">2021.</span> Interdisciplinary Graduate Conference, University of Chicago — oral presentation (spotlight paper).</div>
 
@@ -39,11 +39,11 @@ author_profile: true
 
 <div class="item"><span class="when">2022.</span> Higher Education Forum, Mogadishu — keynote on education, stability, and development.</div>
 
-<div class="item"><span class="when">2021.</span> Public Policy Class, University of Chicago — guest lecture, “Weak States and International Relations.”</div>
+<div class="item"><span class="when">2021.</span> Public Policy Seminar, University of Chicago — guest, “Weak States and International Relations.”</div>
 
 <div class="item"><span class="when">2021.</span> Africa Youth Month (virtual) — keynote on youth and nation-building.</div>
 
-<div class="item"><span class="when">2018.</span> Graduate Awards Reception, The Ohio State University — student remarks on comprehensive exam distinction.</div>
+<div class="item"><span class="when">2018.</span> Graduate Awards Reception, The Ohio State University — student representative .</div>
 
 <div class="section-title">Media & Public Engagement</div> - Comming Soon.
 
