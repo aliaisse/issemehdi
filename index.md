@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-I am a Ph.D. candidate in Security Studies & International Relations at Princeton University's School of Public and International Affairs. My research sits at the intersection of nuclear strategy, coercive diplomacy, and grand strategy, with a focus on how states respond to the most consequential security challenges of our time.
+I am a Ph.D. candidate at Princeton University’s School of Public and International Affairs, specializing in Security Studies and International Relations. My research sits at the intersection of nuclear strategy, coercive diplomacy, and grand strategy, with a focus on how states respond to the most consequential security challenges of our time.
 
 My research integrates quantitative and qualitative methods to study nuclear security. My work includes building original datasets, regression analysis, and theory-driven comparisons to identify patterns and explain strategic decision-making. I am particularly interested in drawing credible inferences from imperfect data, using small-N designs, careful case selection, and empirically grounded research strategies. 
 
