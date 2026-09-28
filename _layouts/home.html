@@ -42,9 +42,10 @@ body_class: page-home
 
     <section class="home-section" aria-labelledby="current-heading">
       <h2 id="current-heading" class="section-label">Current work</h2>
-      <p class="current-dissertation">{{ research.dissertation }}</p>
-      {%- assign working = research.groups | where: "id", "working-papers" | first %}
-      <h3 class="current-subhead">Working papers</h3>
+      <h3 class="current-subhead">Dissertation</h3>
+      <p class="current-dissertation">{{ research.dissertation.title }}</p>
+      {%- assign working = research.groups | where: "id", "works-in-progress" | first %}
+      <h3 class="current-subhead">Works in progress</h3>
       <ul class="current-list">
         {%- for entry in working.entries %}
         <li>{{ entry.title }}</li>

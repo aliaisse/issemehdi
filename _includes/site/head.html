@@ -1,6 +1,6 @@
 {%- assign profile = site.data.profile -%}
 {%- if page.url == "/" -%}
-  {%- assign seo_title = profile.display_name | append: " · Security Studies, Princeton University" -%}
+  {%- assign seo_title = profile.display_name | append: " · Princeton University" -%}
 {%- elsif page.title -%}
   {%- assign seo_title = page.title | strip_html | append: " · " | append: profile.display_name -%}
 {%- else -%}
@@ -48,7 +48,7 @@
   "url": {{ "/" | absolute_url | jsonify }},
   "image": {{ profile.photo | absolute_url | jsonify }},
   "email": {{ profile.email | prepend: "mailto:" | jsonify }},
-  "jobTitle": "Ph.D. Candidate in Security Studies",
+  "jobTitle": "Ph.D. Candidate, Security Studies & International Relations",
   "affiliation": { "@type": "CollegeOrUniversity", "name": "Princeton University" },
   "knowsAbout": {{ profile.interests | jsonify }},
   "sameAs": {{ profile.links | map: "url" | jsonify }}

@@ -2,7 +2,7 @@
 layout: page
 title: "Teaching"
 permalink: /teaching/
-description: "Teaching by Ali Isse (Mehdi) at Princeton University and elsewhere."
+description: "Teaching by Ali Isse (Mehdi) at Princeton University and the University of Chicago."
 ---
 {%- assign static_paths = site.static_files | map: "path" -%}
 <ul class="course-list">
@@ -10,7 +10,8 @@ description: "Teaching by Ali Isse (Mehdi) at Princeton University and elsewhere
   <li class="course">
     <h2 class="course__title">{{ course.title }}</h2>
     <p class="course__meta">
-      {%- if course.institution %}<span>{{ course.institution }}</span>{% endif -%}
+      {%- if course.role %}<span class="course__role">{{ course.role }}</span>{% endif -%}
+      {%- if course.department or course.institution %}<span>{% if course.department %}{{ course.department }}, {% endif %}{{ course.institution }}</span>{% endif -%}
       {%- if course.term %}<span>{{ course.term }}</span>{% endif -%}
       {%- if course.enrollment %}<span>{{ course.enrollment }}</span>{% endif -%}
     </p>

@@ -148,7 +148,28 @@
   &:first-child { padding-top: 0; }
   &:last-child { border-bottom: 0; }
 }
-.current-dissertation { margin-bottom: 1.25rem; }
+.current-dissertation {
+  font-family: var(--font-serif);
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+
+/* Research page: dissertation */
+
+.dissertation {
+  max-width: var(--measure);
+  padding: 1.25rem 0 0.25rem;
+}
+.dissertation .section-label { margin-bottom: 0.5rem; }
+.dissertation__title {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+}
+.dissertation__summary { color: var(--muted); }
 .current-subhead {
   margin: 0 0 0.5rem;
   font-family: var(--font-sans);
@@ -246,24 +267,17 @@
   margin-bottom: 0.6rem !important;
   span + span::before { content: "·"; margin: 0 0.5em; }
 }
+.course__role { color: var(--ink); font-weight: 600; }
 .course__links { margin-top: 0.6rem !important; font-size: 0.95rem; }
 
 /* CV */
 
 .cv-actions { margin: 0 0 2rem; }
 .cv-glance h2 { margin-top: 0; }
-.glance-list {
-  margin: 0;
-  dt {
-    margin-top: 1.25rem;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-  dd { margin: 0.35rem 0 0; }
-}
+.cv-glance .section-label { margin-top: 2rem; margin-bottom: 0.25rem; }
+.cv-glance .entry-list { border-top: 1px solid var(--rule); }
+.cv-dissertation { font-family: var(--font-serif); font-size: 1.15rem; margin: 0.5rem 0 0.35rem; }
+.cv-more { margin-top: 1.25rem; color: var(--muted); font-size: 0.95rem; }
 .cv-embed {
   display: none;
   margin-top: 2.5rem;

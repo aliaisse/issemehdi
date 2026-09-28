@@ -1,12 +1,16 @@
-# Research entries, grouped for the Research page. Titles, years and statuses
-# are copied verbatim from the previous Research page.
+# Research entries, grouped for the Research page. The CV is the authoritative
+# source for titles and statuses; entries not on the CV keep the wording from
+# the previous Research page.
 #
 # Optional per-entry fields (rendered only when present):
 #   abstract: "…"        shown in an expandable "Abstract" box
 #   pdf: "/files/…pdf"   link to a PDF in this repository
 #   url: "https://…"     link to a published or external version
 
-dissertation: "My dissertation examines counterproliferation strategy and proliferation crises."
+# Dissertation title as given on the CV; summary sentence from the homepage bio.
+dissertation:
+  title: "The Politics of Nuclear Prevention: Strategic Choices in Proliferation Crises"
+  summary: "My dissertation examines counterproliferation strategy and proliferation crises."
 
 groups:
   - title: "Forthcoming & under review"
@@ -20,17 +24,17 @@ groups:
         title: "Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW"
         status: "Under review"
 
-  - title: "Working papers"
-    id: working-papers
+  - title: "Works in progress"
+    id: works-in-progress
     entries:
       - year: 2026
         authors: "Isse, A."
-        title: "US-UK Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence"
-        status: "Manuscript"
+        title: "U.S.–U.K. Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence"
+        status: "In preparation"
       - year: 2026
         authors: "Isse, A."
         title: "Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran"
-        status: "Manuscript"
+        status: "In progress"
       - year: 2026
         authors: "Isse, A."
         title: "From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees"

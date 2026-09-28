@@ -4,10 +4,14 @@ title: "Research"
 permalink: /research/
 redirect_from:
   - /publications/
-description: "Research by Ali Isse (Mehdi) on nuclear proliferation and counterproliferation, coercive diplomacy, and international security: forthcoming work, papers under review, and working papers."
+description: "Research by Ali Isse (Mehdi) on nuclear proliferation and counterproliferation, coercive diplomacy, and international security: dissertation, forthcoming work, papers under review, and works in progress."
 ---
 {%- assign research = site.data.research -%}
-<p class="page__intro">{{ research.dissertation }}</p>
+<section class="dissertation" aria-labelledby="dissertation-heading">
+  <h2 id="dissertation-heading" class="section-label">Dissertation</h2>
+  <p class="dissertation__title">{{ research.dissertation.title }}</p>
+  <p class="dissertation__summary">{{ research.dissertation.summary }}</p>
+</section>
 
 {% for group in research.groups %}
 <section class="entry-group" aria-labelledby="research-{{ forloop.index }}">

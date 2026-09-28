@@ -1,10 +1,14 @@
-# Teaching entries. Text is copied verbatim from the previous Teaching page.
+# Teaching entries. Course codes, roles and departments follow the CV;
+# descriptions and enrollments are from the previous Teaching page.
 #
+# `role` is shown only where the CV states a formal role.
 # `syllabus` is linked only if that file actually exists in the repository,
 # so a syllabus appears automatically once its PDF is uploaded.
 
 courses:
-  - title: "International Organizations (Undergraduate)"
+  - title: "POL 396: International Organizations (Undergraduate)"
+    role: "Preceptor (TA)"
+    department: "Department of Politics"
     institution: "Princeton University"
     term: "Spring 2025"
     enrollment: "~400 students"
@@ -14,7 +18,9 @@ courses:
       Emphasizes theoretical approaches, political economy perspectives, and the role of institutions in shaping international order.
     syllabus: "/files/syllabi/International_Organizations.pdf"
 
-  - title: "Introduction to Research Design (Undergraduate)"
+  - title: "SPI 299: Introduction to Research Design (Undergraduate)"
+    role: "Preceptor (TA)"
+    department: "School of Public and International Affairs"
     institution: "Princeton University"
     term: "Fall 2024"
     enrollment: "~75 students"
@@ -25,13 +31,9 @@ courses:
     syllabus: "/files/syllabi/Intro_Research_Design.pdf"
 
   - title: "Mathematics for Social Science (Summer Math Camp)"
+    department: "Department of Political Science, Division of the Social Sciences"
+    institution: "University of Chicago"
     term: "2021"
     description: >-
       Short course on calculus fundamentals, matrix algebra, logic, and introductory probability for incoming graduate students.
     syllabus: "/files/syllabi/Math_Camp.pdf"
-
-  - title: "Analyzing the City (Undergraduate)"
-    term: "Fall 2017"
-    description: >-
-      Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata).
-    syllabus: "/files/syllabi/Analyzing_the_City.pdf"
