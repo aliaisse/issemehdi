@@ -33,15 +33,4 @@
 <link rel="canonical"
       href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html','' }}" />
 
-<script>
-(function () {
-  var h = location.hostname.toLowerCase();
-  // If someone reaches aliaisse.com/issemehdi..., bounce them to github.io
-  if ((h === 'aliaisse.com' || h === 'www.aliaisse.com') &&
-      location.pathname.startsWith('{{ site.baseurl }}')) {
-    location.replace('{{ site.url }}' + location.pathname + location.search + location.hash);
-  }
-})();
-</script>
-
 <!-- end custom head snippets -->
