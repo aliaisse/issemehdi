@@ -2,40 +2,13 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * Site styles. Partials live in _sass/site/.
+ * The older template partials in _sass/ are no longer imported.
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
-
-@import "reset";
-@import "base";
-
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+@import "site/tokens";
+@import "site/base";
+@import "site/layout";
+@import "site/header";
+@import "site/components";
+@import "site/print";

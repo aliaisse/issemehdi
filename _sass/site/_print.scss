@@ -1,0 +1,22 @@
+/* Print: plain black on white, no navigation or embedded PDF */
+
+@media print {
+  :root {
+    --paper: #fff;
+    --surface: #fff;
+    --ink: #000;
+    --muted: #333;
+    --rule: #bbb;
+    --accent: #000;
+  }
+  body { font-size: 11pt; }
+  .site-nav,
+  .nav-toggle,
+  .skip-link,
+  .cv-embed,
+  .contact-links--footer { display: none !important; }
+  .site-footer { background: none; }
+  .page__content a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
+  .entry,
+  .course { break-inside: avoid; }
+}

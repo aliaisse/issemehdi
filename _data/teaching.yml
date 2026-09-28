@@ -1,0 +1,37 @@
+# Teaching entries. Text is copied verbatim from the previous Teaching page.
+#
+# `syllabus` is linked only if that file actually exists in the repository,
+# so a syllabus appears automatically once its PDF is uploaded.
+
+courses:
+  - title: "International Organizations (Undergraduate)"
+    institution: "Princeton University"
+    term: "Spring 2025"
+    enrollment: "~400 students"
+    description: >-
+      Examines the politics, structure, and effectiveness of international organizations in global governance.
+      Analyzes cooperation, power, and legitimacy through case studies of the IMF, World Bank, UN, WTO, NATO, and regional institutions.
+      Emphasizes theoretical approaches, political economy perspectives, and the role of institutions in shaping international order.
+    syllabus: "/files/syllabi/International_Organizations.pdf"
+
+  - title: "Introduction to Research Design (Undergraduate)"
+    institution: "Princeton University"
+    term: "Fall 2024"
+    enrollment: "~75 students"
+    description: >-
+      Introduces undergraduates to the principles of research design and the logic of social inquiry.
+      Emphasizes analytical reading, annotated bibliographies, and literature review writing as foundations for independent research.
+      Prepares students to write their junior and senior theses in public and international affairs.
+    syllabus: "/files/syllabi/Intro_Research_Design.pdf"
+
+  - title: "Mathematics for Social Science (Summer Math Camp)"
+    term: "2021"
+    description: >-
+      Short course on calculus fundamentals, matrix algebra, logic, and introductory probability for incoming graduate students.
+    syllabus: "/files/syllabi/Math_Camp.pdf"
+
+  - title: "Analyzing the City (Undergraduate)"
+    term: "Fall 2017"
+    description: >-
+      Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata).
+    syllabus: "/files/syllabi/Analyzing_the_City.pdf"

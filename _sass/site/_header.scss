@@ -1,0 +1,106 @@
+/* Site header and navigation. Below $bp-nav the links collapse behind a Menu
+   button (only when JavaScript is available; without it they stay visible). */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 1.5rem;
+  min-height: 4.25rem;
+}
+
+.site-name {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.75rem 0;
+  letter-spacing: -0.005em;
+
+  &:hover { color: var(--accent); }
+}
+.site-name__preferred {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.75rem;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 0.75rem 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid transparent;
+
+  &:hover { color: var(--accent); border-bottom-color: var(--rule); }
+  &[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+}
+
+.nav-toggle { display: none; }
+
+@media (max-width: $bp-nav - 0.01em) {
+  .js .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 2.75rem;
+    padding: 0 0.85rem;
+    margin-right: -0.4rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .nav-toggle__bars,
+  .nav-toggle__bars::before,
+  .nav-toggle__bars::after {
+    display: block;
+    width: 1rem;
+    height: 1.5px;
+    background: currentColor;
+    position: relative;
+  }
+  .nav-toggle__bars::before,
+  .nav-toggle__bars::after { content: ""; position: absolute; left: 0; }
+  .nav-toggle__bars::before { top: -5px; }
+  .nav-toggle__bars::after { top: 5px; }
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bars { background: transparent; }
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bars::before { top: 0; transform: rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bars::after { top: 0; transform: rotate(-45deg); }
+
+  .site-nav { flex-basis: 100%; }
+  .js .site-nav { display: none; }
+  .js .site-nav.is-open { display: block; }
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 0.5rem;
+  }
+  .site-nav li + li { border-top: 1px solid var(--rule); }
+  .site-nav a {
+    display: block;
+    padding: 0.8rem 0;
+    border-bottom: 0;
+    &[aria-current="page"] { font-weight: 600; }
+  }
+}

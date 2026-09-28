@@ -1,0 +1,37 @@
+# Single source for the name, roles and links shown in the header, homepage,
+# footer and search metadata.
+
+name: "Ali Isse"
+preferred_name: "Mehdi"
+display_name: "Ali Isse (Mehdi)"
+# Other forms of the name, used only in search-engine metadata.
+name_variants:
+  - "Mehdi Isse"
+  - "Ali A. Isse"
+
+roles:
+  - "Ph.D. Candidate in Security Studies, School of Public and International Affairs, Princeton University"
+  - "Nuclear Security Program Resident Fellow, MacMillan Center, Yale University, 2025–2026"
+job_market: "On the academic job market, 2026–27."
+
+interests:
+  - "Nuclear proliferation & counterproliferation"
+  - "Coercive diplomacy"
+  - "International security"
+  - "U.S. foreign policy"
+
+photo: "/mehdi.jpg"
+photo_alt: "Portrait of Ali Isse (Mehdi)"
+
+email: "ai9431@princeton.edu"
+cv: "/cv.pdf"
+links:
+  - label: "ORCID"
+    icon: orcid
+    url: "https://orcid.org/0009-0009-0548-6234"
+  - label: "LinkedIn"
+    icon: linkedin
+    url: "https://www.linkedin.com/in/mehdi-i-28a95683"
+  - label: "X"
+    icon: x
+    url: "https://x.com/issemehdi"

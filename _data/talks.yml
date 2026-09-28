@@ -1,0 +1,40 @@
+# Talks, grouped for the Talks page. Text is copied verbatim from the previous
+# Talks page. A group with no entries is not shown.
+
+groups:
+  - title: "Conference presentations"
+    entries:
+      - year: 2025
+        text: "<em>Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW</em>. Alva Myrdal Center for Nuclear Disarmament, Uppsala University — oral presentation."
+      - year: 2025
+        text: "<em>Regime Type, Antimigrant Sentiments, and Support for State Surveillance in Public Space</em>. 82nd Annual MPSA Conference, Chicago — lightning talk (with Omar R.)."
+      - year: 2024
+        text: "Bridging the Gap — NEW Era Foreign Policy Conference, University of Denver — panelist, roundtable discussions."
+      - year: 2023
+        text: "Reimagining World Order, Princeton PIIRS — Conference Participant."
+      - year: 2023
+        text: "Center for International Security Studies Conference, Princeton — contributor on the global nuclear order."
+      - year: 2021
+        text: "Interdisciplinary Graduate Conference, University of Chicago — oral presentation (spotlight paper)."
+
+  - title: "Invited talks & research presentations"
+    entries:
+      - year: 2025
+        text: "International Relations Seminar, MacMillan Center, Yale University — doctoral prospectus presentation."
+      - year: 2024
+        text: "Africa Policy Program, LISD at Princeton — research talk on “International Intervention and Regional Dynamics in Africa.”"
+      - year: 2024
+        text: "Security Studies Seminar, CISS at Princeton — research presentation on coercion and strategic dynamics."
+      - year: 2023
+        text: "Diversity & Inclusion Speaker Series, Princeton SPIA — “Coming to America: Challenges and Opportunities.”"
+      - year: 2022
+        text: "Higher Education Forum, Mogadishu — keynote on education, stability, and development."
+      - year: 2021
+        text: "Public Policy Seminar, University of Chicago — guest, “Weak States and International Relations.”"
+      - year: 2021
+        text: "Africa Youth Month (virtual) — keynote on youth and nation-building."
+      - year: 2018
+        text: "Graduate Awards Reception, The Ohio State University — student representative ."
+
+  - title: "Media & public engagement"
+    entries: []

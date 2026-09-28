@@ -1,47 +1,23 @@
 ---
-layout: single
+layout: page
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+description: "Teaching by Ali Isse (Mehdi) at Princeton University and elsewhere."
 ---
-
-<style>
-  .course{margin:0 0 .9rem 0}
-  .title{color:#0A2A66;font-weight:700}
-  .meta{color:#6b7280}
-  .desc{margin:.2rem 0 0 0}
-  .tiny a{font-size:.9rem;color:#6b7280;text-decoration:none}
-  .tiny a:hover{text-decoration:underline}
-</style>
-
-<div class="course">
-  <span class="title">International Organizations (Undergraduate)</span> — Princeton University,
-  <span class="meta">Spring 2025 · ~400 students</span>
-  <div class="desc">Examines the politics, structure, and effectiveness of international organizations in global governance.
-Analyzes cooperation, power, and legitimacy through case studies of the IMF, World Bank, UN, WTO, NATO, and regional institutions.
-Emphasizes theoretical approaches, political economy perspectives, and the role of institutions in shaping international order.</div>
-  <div class="tiny"><a href="{{ "/files/syllabi/International_Organizations.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
-</div>
-
-<div class="course">
-  <span class="title">Introduction to Research Design (Undergraduate)</span> — Princeton University,
-  <span class="meta">Fall 2024 · ~75 students</span>
-  <div class="desc">Introduces undergraduates to the principles of research design and the logic of social inquiry.
-Emphasizes analytical reading, annotated bibliographies, and literature review writing as foundations for independent research.
-Prepares students to write their junior and senior theses in public and international affairs.</div>
-  <div class="tiny"><a href="{{ "/files/syllabi/Intro_Research_Design.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
-</div>
-
-<div class="course">
-  <span class="title">Mathematics for Social Science (Summer Math Camp)</span>
-  <span class="meta">2021</span>
-  <div class="desc">Short course on calculus fundamentals, matrix algebra, logic, and introductory probability for incoming graduate students.</div>
-  <div class="tiny"><a href="{{ "/files/syllabi/Math_Camp.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
-</div>
-
-<div class="course">
-  <span class="title">Analyzing the City (Undergraduate)</span> —
-  <span class="meta">Fall 2017</span>
-  <div class="desc">Computer-lab instruction in quantitative and spatial analysis of urban systems (ArcGIS, Excel, Stata).</div>
-  <div class="tiny"><a href="{{ "/files/syllabi/Analyzing_the_City.pdf" | relative_url }}" target="_blank" rel="noopener">syllabus</a></div>
-</div>
+{%- assign static_paths = site.static_files | map: "path" -%}
+<ul class="course-list">
+  {%- for course in site.data.teaching.courses %}
+  <li class="course">
+    <h2 class="course__title">{{ course.title }}</h2>
+    <p class="course__meta">
+      {%- if course.institution %}<span>{{ course.institution }}</span>{% endif -%}
+      {%- if course.term %}<span>{{ course.term }}</span>{% endif -%}
+      {%- if course.enrollment %}<span>{{ course.enrollment }}</span>{% endif -%}
+    </p>
+    <p class="course__description">{{ course.description }}</p>
+    {%- if course.syllabus and static_paths contains course.syllabus %}
+    <p class="course__links"><a href="{{ course.syllabus | relative_url }}">Syllabus <span class="visually-hidden">for {{ course.title }}</span>(PDF)</a></p>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>

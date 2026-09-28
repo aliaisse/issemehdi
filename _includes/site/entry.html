@@ -1,0 +1,23 @@
+{%- comment -%}
+  One research entry from _data/research.yml. Usage:
+  {% include site/entry.html entry=entry %}
+{%- endcomment -%}
+{%- assign e = include.entry -%}
+<li class="entry">
+  <span class="entry__year">{{ e.year }}</span>
+  <div class="entry__body">
+    <p class="entry__title">{% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</p>
+    <p class="entry__meta">
+      {%- if e.authors %}<span>{{ e.authors }}</span>{% endif -%}
+      {%- if e.venue %}<span>{{ e.venue }}</span>{% endif -%}
+      {%- if e.status %}<span class="entry__status">{{ e.status }}</span>{% endif -%}
+      {%- if e.pdf %}<span><a href="{{ e.pdf | relative_url }}">PDF</a></span>{% endif -%}
+    </p>
+    {%- if e.abstract %}
+    <details class="entry__abstract">
+      <summary>Abstract</summary>
+      <p>{{ e.abstract }}</p>
+    </details>
+    {%- endif %}
+  </div>
+</li>

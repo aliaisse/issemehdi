@@ -1,7 +1,5 @@
 ---
-layout: single
-# If you didn’t add the defaults block in _config.yml, keep this:
-author_profile: true
+layout: home
 ---
 Hello! My name is Mehdi Isse, and I am a PhD candidate in Security Studies at Princeton University's School of Public and International Affairs. My research sits at the intersection of nuclear strategy, coercive diplomacy, and grand strategy, with a focus on how states respond to the most consequential security challenges of our time.
 

@@ -1,24 +1,23 @@
 # ---------- Site basics ---------- 
 locale: "en-US"
-title: "Ali A. Isse"
+title: "Ali Isse (Mehdi)"
 title_separator: "-"
-name: "Ali A. Isse"
-description: "Personal site"
-url: "https://aliaisse.github.io"
+name: "Ali Isse (Mehdi)"
+description: "Ali Isse (Mehdi) is a Ph.D. candidate in Security Studies at Princeton University's School of Public and International Affairs, working on nuclear proliferation and counterproliferation, coercive diplomacy, international security, and U.S. foreign policy."
+url: "https://aliaisse.com"
 baseurl: "/issemehdi"
 repository: "aliaisse/issemehdi"
 
-# ---------- Theme ---------- these are all i got in the config. what should change 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: default
-enable_darkmode: false
-academicons: true
+# ---------- Theme ----------
+# The site uses its own layouts (_layouts/default, home, page), includes
+# (_includes/site/) and styles (_sass/site/). Name, roles and links live in
+# _data/profile.yml; research, talks and teaching entries in _data/*.yml.
 
 # ---------- Author (single author) ----------
-# _config.yml (single-author) 
+# Used by the feed and by legacy template pages.
 author:
-  name: "Ali A. Isse" 
-  avatar: "https://aliaisse.github.io/issemehdi/mehdi.jpg"
+  name: "Ali Isse (Mehdi)"
+  avatar: "https://aliaisse.com/issemehdi/mehdi.jpg"
   bio: "Ph.D. Candidate. School of Public and International Affairs. Princeton University"
   location: "Princeton, NJ"
   email: "ai9431@princeton.edu"
@@ -294,6 +293,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-redirect-from
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -302,6 +302,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-redirect-from
 
 
 # Archives

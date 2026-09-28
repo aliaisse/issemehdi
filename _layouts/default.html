@@ -1,31 +1,14 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="en">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    {% include site/head.html %}
   </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+  <body class="{{ page.body_class | default: 'page-default' }}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include site/header.html %}
+    <main id="main" class="site-main" tabindex="-1">
+      {{ content }}
+    </main>
+    {% include site/footer.html %}
   </body>
 </html>

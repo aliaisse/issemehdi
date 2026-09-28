@@ -1,0 +1,48 @@
+# Research entries, grouped for the Research page. Titles, years and statuses
+# are copied verbatim from the previous Research page.
+#
+# Optional per-entry fields (rendered only when present):
+#   abstract: "…"        shown in an expandable "Abstract" box
+#   pdf: "/files/…pdf"   link to a PDF in this repository
+#   url: "https://…"     link to a published or external version
+
+dissertation: "My dissertation examines counterproliferation strategy and proliferation crises."
+
+groups:
+  - title: "Forthcoming & under review"
+    entries:
+      - year: 2024
+        authors: "Isse, A."
+        title: "The Strategies of Coercion in the Nuclear Era: From Diplomacy to War"
+        status: "Forthcoming"
+      - year: 2024
+        authors: "Isse, A."
+        title: "Between Coercion and Inducements: Ensuring Compliance in Nuclear Disarmament under the NPT and TPNW"
+        status: "Under review"
+
+  - title: "Working papers"
+    id: working-papers
+    entries:
+      - year: 2026
+        authors: "Isse, A."
+        title: "US-UK Nuclear Partnership: Cooperation, Integration, and Strategic Interdependence"
+        status: "Manuscript"
+      - year: 2026
+        authors: "Isse, A."
+        title: "Authoritarian Calculus and the Risk of Nuclear Use: Executive Power and Brinkmanship in North Korea and Iran"
+        status: "Manuscript"
+      - year: 2026
+        authors: "Isse, A."
+        title: "From Coercion to Cooperation: Reversing Nuclear Programs Through Guarantees"
+        status: "Manuscript"
+
+  - title: "Earlier papers"
+    entries:
+      - year: 2021
+        authors: "Isse, A."
+        title: "Statebuilding in Somalia: The Role of International Actors and Actions"
+        venue: "University of Chicago"
+      - year: 2018
+        authors: "Isse, A."
+        title: "Spatial Integration of Immigrants: A Case Study of East African Immigrants in Columbus, Ohio"
+        venue: "The Ohio State University"

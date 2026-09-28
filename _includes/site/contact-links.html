@@ -1,0 +1,14 @@
+{%- comment -%}
+  Email, CV and profile links. Usage:
+  {% include site/contact-links.html class="contact-links" cv=true %}
+{%- endcomment -%}
+{%- assign profile = site.data.profile -%}
+<ul class="{{ include.class | default: 'contact-links' }}">
+  {%- if include.cv %}
+  <li><a class="button" href="{{ profile.cv | relative_url }}">{% include site/icon.html name="file" %}CV <span class="button__note">(PDF)</span></a></li>
+  {%- endif %}
+  <li><a href="mailto:{{ profile.email }}">{% include site/icon.html name="mail" %}<span>Email</span></a></li>
+  {%- for link in profile.links %}
+  <li><a href="{{ link.url }}" rel="me noopener">{% include site/icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
+  {%- endfor %}
+</ul>
