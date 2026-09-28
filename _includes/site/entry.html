@@ -6,7 +6,9 @@
 <li class="entry">
   <span class="entry__year">{{ e.year }}</span>
   <div class="entry__body">
-    <p class="entry__title">{% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</p>
+    {%- comment -%} Keep "U.S.–U.K." on one line. {%- endcomment -%}
+    {%- assign title = e.title | replace: "U.S.–U.K.", '<span class="nowrap">U.S.–U.K.</span>' %}
+    <p class="entry__title">{% if e.url %}<a href="{{ e.url }}">{{ title }}</a>{% else %}{{ title }}{% endif %}</p>
     <p class="entry__meta">
       {%- if e.authors %}<span>{{ e.authors }}</span>{% endif -%}
       {%- if e.venue %}<span>{{ e.venue }}</span>{% endif -%}

@@ -9,9 +9,10 @@ name_variants:
   - "Mehdi Isse"
   - "Ali A. Isse"
 
-roles:
-  - "Ph.D. Candidate in Security Studies & International Relations, School of Public and International Affairs, Princeton University"
-  - "2025–26 Resident Fellow, Nuclear Security Program, MacMillan Center, Yale University"
+# Homepage identity lines, shown in this order.
+position: "Ph.D. Candidate, Security Studies & International Relations"
+affiliation: "Princeton School of Public and International Affairs, Princeton University"
+fellowship: "2025–26 Resident Fellow, Nuclear Security Program, MacMillan Center, Yale University"
 job_market: "On the academic job market, 2026–27."
 
 interests:

@@ -90,19 +90,26 @@
   font-weight: 400;
   color: var(--muted);
 }
-.hero__roles {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.hero__text p { margin: 0; }
+.hero__position {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.hero__affiliation {
+  margin-top: 0.15rem !important;
   font-size: 1.05em;
-
-  li + li { margin-top: 0.3rem; color: var(--muted); }
+  line-height: 1.45;
+}
+.hero__fellowship {
+  margin-top: 0.55rem !important;
+  color: var(--muted);
+  line-height: 1.45;
 }
 .hero__market {
-  margin: 0.9rem 0 0;
-  font-family: var(--font-serif);
-  font-style: italic;
-  color: var(--ink);
+  margin-top: 0.35rem !important;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .home-grid {
@@ -141,16 +148,14 @@
   padding: 0;
 }
 .interest-list li {
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid var(--rule);
-  &:first-child { padding-top: 0; }
-  &:last-child { border-bottom: 0; }
+  font-size: 1rem;
+  line-height: 1.45;
+  padding: 0.15rem 0;
 }
 .current-dissertation {
   font-family: var(--font-serif);
   font-style: italic;
+  font-size: 0.95rem;
   line-height: 1.4;
   margin-bottom: 1.25rem;
 }
@@ -179,8 +184,9 @@
 .current-list li {
   font-family: var(--font-serif);
   font-style: italic;
+  font-size: 0.95rem;
   line-height: 1.4;
-  padding: 0.5rem 0;
+  padding: 0.45rem 0;
   border-top: 1px solid var(--rule);
 }
 

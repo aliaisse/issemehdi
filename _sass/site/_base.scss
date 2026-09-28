@@ -57,6 +57,8 @@ main:focus { outline: none; }
 
 hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
 
+.nowrap { white-space: nowrap; }
+
 .visually-hidden {
   position: absolute !important;
   width: 1px; height: 1px;

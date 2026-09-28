@@ -9,11 +9,11 @@ body_class: page-home
     <img class="hero__photo" src="{{ profile.photo | relative_url }}" alt="{{ profile.photo_alt }}" width="828" height="786">
     <div class="hero__text">
       <h1 id="hero-name" class="hero__name">{{ profile.name }} <span class="hero__preferred">({{ profile.preferred_name }})</span></h1>
-      <ul class="hero__roles">
-        {%- for role in profile.roles %}
-        <li>{{ role }}</li>
-        {%- endfor %}
-      </ul>
+      <p class="hero__position">{{ profile.position }}</p>
+      <p class="hero__affiliation">{{ profile.affiliation }}</p>
+      {%- if profile.fellowship %}
+      <p class="hero__fellowship">{{ profile.fellowship }}</p>
+      {%- endif %}
       {%- if profile.job_market %}
       <p class="hero__market">{{ profile.job_market }}</p>
       {%- endif %}
@@ -48,7 +48,7 @@ body_class: page-home
       <h3 class="current-subhead">Works in progress</h3>
       <ul class="current-list">
         {%- for entry in working.entries %}
-        <li>{{ entry.title }}</li>
+        <li>{{ entry.title | replace: "U.S.–U.K.", '<span class="nowrap">U.S.–U.K.</span>' }}</li>
         {%- endfor %}
       </ul>
       <p><a class="text-link" href="{{ '/research/' | relative_url }}">All research{% include site/icon.html name="arrow" %}</a></p>
