@@ -1,5 +1,8 @@
 ---
 layout: home
+# The CV page is hidden for now; send old /cv/ links here.
+redirect_from:
+  - /cv/
 ---
 I am a Ph.D. candidate at Princeton University’s School of Public and International Affairs, specializing in International Relations and Security Studies. My research examines how international pressures shape the strategic choices of states and the resilience of their political institutions. I work across two connected areas: nuclear security and coercive diplomacy, and the international politics of democratic resilience.
 

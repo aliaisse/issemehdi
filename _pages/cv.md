@@ -2,6 +2,8 @@
 layout: page
 title: "Curriculum Vitae"
 permalink: /cv/
+# Hidden for now: not built; /cv/ redirects to the homepage (see index.md).
+published: false
 description: "Curriculum vitae of Ali Isse (Mehdi), Ph.D. candidate in Security Studies & International Relations at Princeton University's School of Public and International Affairs."
 ---
 {%- assign profile = site.data.profile -%}

@@ -5,5 +5,6 @@ main:
     url: /talks/
   - title: "Teaching"
     url: /teaching/
-  - title: "CV"
-    url: /cv/
+  # CV hidden from the site for now. To restore, re-add:
+  # - title: "CV"
+  #   url: /cv/

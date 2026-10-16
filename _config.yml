@@ -147,6 +147,7 @@ include:
   - _pages
   - files
 exclude:
+  - cv.pdf # CV hidden from the site for now; remove this line to publish it again
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
