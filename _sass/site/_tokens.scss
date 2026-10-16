@@ -51,20 +51,37 @@ $bp-entry: 36em; // year column appears beside entries
   --measure: 40rem;
   --gutter: 1.25rem;
   --radius: 4px;
+
+  color-scheme: light;
 }
 
+@mixin dark-tokens {
+  --paper: #121519;
+  --surface: #181c21;
+  --ink: #e6e8ec;
+  --muted: #a4abb7;
+  --rule: #2b3038;
+  --accent: #a9c1f2;
+  --accent-hover: #cddbf8;
+  --accent-ink: #0e1420;
+  --focus: #cddbf8;
+
+  color-scheme: dark;
+}
+
+// Dark applies when the visitor chose it with the theme toggle, or when their
+// system is dark and they have not chosen light (see assets/js/theme.js).
 @media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #121519;
-    --surface: #181c21;
-    --ink: #e6e8ec;
-    --muted: #a4abb7;
-    --rule: #2b3038;
-    --accent: #a9c1f2;
-    --accent-hover: #cddbf8;
-    --accent-ink: #0e1420;
-    --focus: #cddbf8;
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+:root[data-theme="dark"] { @include dark-tokens; }
+
+// Styles that differ in the dark theme: `.foo { @include when-dark { … } }`
+@mixin when-dark {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & { @content; }
   }
+  :root[data-theme="dark"] & { @content; }
 }
 
 @media (min-width: $bp-nav) {

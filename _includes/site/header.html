@@ -2,10 +2,16 @@
 <header class="site-header">
   <div class="wrap site-header__inner">
     <a class="site-name" href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>{{ profile.name }} <span class="site-name__preferred">({{ profile.preferred_name }})</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span class="nav-toggle__bars" aria-hidden="true"></span>
-      <span class="nav-toggle__label">Menu</span>
-    </button>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Dark mode" title="Switch between light and dark mode">
+        <span class="theme-toggle__icon theme-toggle__icon--moon">{% include site/icon.html name="moon" %}</span>
+        <span class="theme-toggle__icon theme-toggle__icon--sun">{% include site/icon.html name="sun" %}</span>
+      </button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+    </div>
     <nav id="site-nav" class="site-nav" aria-label="Main">
       <ul>
         {%- for link in site.data.navigation.main %}

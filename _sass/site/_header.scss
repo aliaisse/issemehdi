@@ -55,6 +55,44 @@
 
 .nav-toggle { display: none; }
 
+/* Name on the left; on desktop the links then the theme toggle on the right,
+   on mobile the theme toggle and Menu button with the links below. */
+.site-name { margin-right: auto; }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  order: 3;
+}
+.site-nav { order: 2; }
+
+/* Light/dark toggle: shown only when JavaScript can run it (assets/js/theme.js). */
+.theme-toggle { display: none; }
+.js .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+
+  &:hover { color: var(--accent); border-color: var(--muted); }
+  .icon { width: 1.15rem; height: 1.15rem; vertical-align: 0; }
+}
+.theme-toggle__icon { display: inline-flex; }
+.theme-toggle__icon--sun { display: none; }
+.theme-toggle__icon--moon {
+  @include when-dark { display: none; }
+}
+.theme-toggle__icon--sun {
+  @include when-dark { display: inline-flex; }
+}
+
 @media (max-width: $bp-nav - 0.01em) {
   .js .nav-toggle {
     display: inline-flex;
@@ -88,7 +126,8 @@
   .nav-toggle[aria-expanded="true"] .nav-toggle__bars::before { top: 0; transform: rotate(45deg); }
   .nav-toggle[aria-expanded="true"] .nav-toggle__bars::after { top: 0; transform: rotate(-45deg); }
 
-  .site-nav { flex-basis: 100%; }
+  .header-actions { order: 2; }
+  .site-nav { flex-basis: 100%; order: 3; }
   .js .site-nav { display: none; }
   .js .site-nav.is-open { display: block; }
   .site-nav ul {
