@@ -8,6 +8,8 @@
 {%- endif -%}
 {%- assign seo_description = page.description | default: site.description | strip_html | normalize_whitespace -%}
 {%- assign canonical = page.url | replace: "index.html", "" | absolute_url -%}
+{%- comment -%} Changes on every build, so browsers fetch fresh CSS/JS after each deploy. {%- endcomment -%}
+{%- assign asset_version = site.time | date: "%Y%m%d%H%M%S" -%}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ seo_title }}</title>
@@ -33,7 +35,7 @@
 <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
 <link rel="preload" href="{{ '/assets/fonts/site/source-serif-4.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/site/source-sans-3.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ asset_version }}">
 <link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ profile.display_name }}">
 <script>
   document.documentElement.className += " js";
@@ -42,8 +44,8 @@
     if (savedTheme === "light" || savedTheme === "dark") document.documentElement.setAttribute("data-theme", savedTheme);
   } catch (e) {}
 </script>
-<script src="{{ '/assets/js/nav.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/nav.js' | relative_url }}?v={{ asset_version }}" defer></script>
+<script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ asset_version }}" defer></script>
 
 {%- if page.url == "/" %}
 <script type="application/ld+json">
